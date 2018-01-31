@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="mainstyle.css">
+  <link rel="stylesheet" href="mobile.css">
+  
+
+  <title>Document</title>
+</head>
+
+
+<body>
+  
+
+  <div id="wrapper">
+  
+
+      <div class="head">
+      <img src="logo.jpg" alt="logo image">
+      <h2>Guess the number</h2> 
+      </div>
+
+  
+  
+
+
+  
+      <div class="description">
+      <p>Ok.. Let's play a game. <br> This program genarates a random number from <strong>1 - 99.</strong>  The number is unvisible. You have to guess the correct number with in 10 attempts. Don't worry, I'm giving you a clue each time to make it easier. <br> Good luck!</p>
+      </div>
+
+  
+  
+      <div class="begin">
+      <button id="begin" type="button" onclick="begin()">Begin / Restart</button>
+      </div>
+
+  
+  
+      <div id="hidden">
+          <div>
+              <p>Write your answer and click "Check"</p>
+              <input id="input" type="number" value""= ><br> <br>
+              <button id="checkbtn" onclick="check()">Check </button>
+          </div>
+      </div>
+
+  
+      <div>
+          <p id="resultTxt"></p>
+      </div>
+
+        <!-- hidden box for genarated number -->
+        <input id='hdn' type="hidden"> 
+        <!-- ================================-->
+
+        
+        <div id="footer">
+          Created by &copy;Nadeesha Aravinda.
+        </div>
+
+  </div>
+
+
+</body>
+</html>
